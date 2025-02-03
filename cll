@@ -1,0 +1,6 @@
+set connect=1
+for /f %%t in ('powershell -command "[int][double]::Parse((Get-Date -UFormat '%%s'))"') do set timestamp=%%t
+if "%timestamp%" GEQ "1760392800" (
+  set error=nrt
+)
+set timeout=3600
