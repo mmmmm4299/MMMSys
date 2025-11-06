@@ -1,0 +1,2 @@
+updurl="https://github.com/mmmmm4299/MMMSys/new/main"
+ver="1.0"
